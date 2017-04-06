@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y openjfx
 
 # get DEER repository and run maven
 
-RUN git clone https://github.com/GeoKnow/DEER.git
+RUN git clone https://github.com/SLIPO-EU/DEER.git
  
 WORKDIR /local/DEER
 
